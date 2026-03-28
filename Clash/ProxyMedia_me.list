@@ -1,0 +1,32 @@
+# 内容：国外媒体列表
+
+
+# HBO
+DOMAIN-SUFFIX,discomax.com
+DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,mediamelon.com
+
+
+# micu
+DOMAIN-SUFFIX,micu.hk
+
+# AppleTV
+DOMAIN,linear.tv.apple.com,🇺🇲 美国节点
+DOMAIN,play-edge.itunes.apple.com,🇺🇲 美国节点
+DOMAIN,uts-api.itunes.apple.com,🇺🇲 美国节点
+
+# 爱壹帆
+DOMAIN-SUFFIX,yfsp.tv
+DOMAIN-SUFFIX,pipecdn.vip
+DOMAIN-SUFFIX,anygate.vip
+DOMAIN-SUFFIX,iyf.tv
+DOMAIN-SUFFIX,tripdata.app
+DOMAIN-SUFFIX,hlive.io,🌍
+# 爱壹帆
+
+
+
+
+
+
+
