@@ -11,9 +11,9 @@ DOMAIN-SUFFIX,mediamelon.com
 DOMAIN-SUFFIX,micu.hk
 
 # AppleTV
-DOMAIN,linear.tv.apple.com,🇺🇲 美国节点
-DOMAIN,play-edge.itunes.apple.com,🇺🇲 美国节点
-DOMAIN,uts-api.itunes.apple.com,🇺🇲 美国节点
+DOMAIN,linear.tv.apple.com
+DOMAIN,play-edge.itunes.apple.com
+DOMAIN,uts-api.itunes.apple.com
 
 # 爱壹帆
 DOMAIN-SUFFIX,yfsp.tv
@@ -21,9 +21,8 @@ DOMAIN-SUFFIX,pipecdn.vip
 DOMAIN-SUFFIX,anygate.vip
 DOMAIN-SUFFIX,iyf.tv
 DOMAIN-SUFFIX,tripdata.app
-DOMAIN-SUFFIX,hlive.io,🌍
+DOMAIN-SUFFIX,hlive.io
 # 爱壹帆
-
 
 
 
