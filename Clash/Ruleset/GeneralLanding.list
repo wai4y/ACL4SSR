@@ -1,0 +1,13 @@
+# 内容：需要通过通用落地节点访问的服务
+# 维护说明：按需添加 DOMAIN、DOMAIN-SUFFIX、DOMAIN-KEYWORD 或 IP-CIDR 规则
+
+# Reddit
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,reddit.app.link
+DOMAIN-SUFFIX,reddithelp.com
+DOMAIN-SUFFIX,redditinc.com
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redditspace.com
+DOMAIN-SUFFIX,redditstatic.com
+DOMAIN,reddit.map.fastly.net
