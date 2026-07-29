@@ -1,0 +1,11 @@
+# 内容：币圈服务-个人补充
+# 维护说明：仅添加官方 Crypto.list 尚未覆盖的域名
+
+# Bybit App
+DOMAIN-SUFFIX,bybit.biz
+DOMAIN-SUFFIX,monitor-frontend-collector.a.bybit-aws.com
+DOMAIN-SUFFIX,bybdc6.com
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,byd3c3.com
+DOMAIN-SUFFIX,bybitglobal.com
