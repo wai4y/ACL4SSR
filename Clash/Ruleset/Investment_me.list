@@ -1,0 +1,20 @@
+# 内容：证券投资-个人规则
+# 维护说明：仅添加已确认的券商、交易所及行情服务主域
+
+# 券商
+DOMAIN-SUFFIX,futuhk.com
+DOMAIN-SUFFIX,futunn.com
+DOMAIN-SUFFIX,moomoo.com
+DOMAIN-SUFFIX,longbridge.com
+DOMAIN-SUFFIX,lbkrs.com
+DOMAIN-SUFFIX,interactivebrokers.com.hk
+DOMAIN-SUFFIX,interactivebrokers.com
+DOMAIN-SUFFIX,ibkr.com
+DOMAIN-SUFFIX,schwab.com
+DOMAIN-SUFFIX,itiger.com
+DOMAIN-SUFFIX,tigerbrokers.com.hk
+DOMAIN-SUFFIX,tigerhkgo.com
+
+# 交易所与行情
+DOMAIN-SUFFIX,hkex.com.hk
+DOMAIN-SUFFIX,aastocks.com

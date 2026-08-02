@@ -1,0 +1,14 @@
+# 内容：支付服务-个人规则
+# 维护说明：仅添加已确认的支付机构主域，不收录共享 CDN 和第三方统计域名
+
+# 香港本地支付
+DOMAIN-SUFFIX,payme.hsbc.com.hk
+DOMAIN-SUFFIX,alipayhk.com
+DOMAIN-SUFFIX,octopus.com.hk
+DOMAIN-SUFFIX,octopuscards.com
+
+# 国际支付与汇款
+DOMAIN-SUFFIX,wise.com
+DOMAIN-SUFFIX,transferwise.com
+DOMAIN-SUFFIX,payoneer.com
+DOMAIN-SUFFIX,airwallex.com

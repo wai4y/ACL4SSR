@@ -1,0 +1,30 @@
+# 内容：香港银行-个人规则
+# 维护说明：仅添加银行官方主域及已确认的 App 服务域名
+
+# 传统银行
+DOMAIN-SUFFIX,hsbc.com.hk
+DOMAIN-SUFFIX,hangseng.com
+DOMAIN-SUFFIX,bochk.com
+DOMAIN-SUFFIX,sc.com
+DOMAIN-SUFFIX,citibank.com.hk
+DOMAIN-SUFFIX,dbs.com.hk
+DOMAIN-SUFFIX,hkbea.com
+DOMAIN-SUFFIX,dahsing.com
+DOMAIN-SUFFIX,ocbc.com.hk
+DOMAIN-SUFFIX,icbcasia.com
+DOMAIN-SUFFIX,cmbwinglungbank.com
+DOMAIN-SUFFIX,cncbinternational.com
+DOMAIN-SUFFIX,asia.ccb.com
+DOMAIN-SUFFIX,ncb.com.hk
+DOMAIN-SUFFIX,shacombank.com.hk
+DOMAIN-SUFFIX,chiyubank.com
+DOMAIN-SUFFIX,fubonbank.com.hk
+
+# 数字银行
+DOMAIN-SUFFIX,za.group
+DOMAIN-SUFFIX,mox.com
+DOMAIN-SUFFIX,welab.bank
+DOMAIN-SUFFIX,livibank.com
+DOMAIN-SUFFIX,airstarbank.com
+DOMAIN-SUFFIX,fusionbank.com
+DOMAIN-SUFFIX,antbank.hk
