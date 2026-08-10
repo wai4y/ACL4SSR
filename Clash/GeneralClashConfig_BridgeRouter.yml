@@ -1,0 +1,78 @@
+mixed-port: 7890
+allow-lan: true
+mode: Rule
+log-level: warning
+external-controller: 0.0.0.0:9090
+
+dns:
+  enable: true
+  listen: 0.0.0.0:7874
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+
+  fallback:
+    - tls://1.1.1.1:853
+    - tls://8.8.8.8:853
+
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+
+  fake-ip-filter:
+    # Local / LAN
+    - '*.lan'
+    - '*.local'
+    - '*.localdomain'
+    - 'localhost'
+    - 'router.asus.com'
+    - 'miwifi.com'
+    - 'tplogin.cn'
+    - 'tendawifi.com'
+
+    # Windows connectivity detection
+    - '+.msftconnecttest.com'
+    - '+.msftncsi.com'
+
+    # Apple services
+    - '+.time.apple.com'
+    - '+.push.apple.com'
+    - 'time-ios.apple.com'
+
+    # NTP
+    - 'time.*.com'
+    - 'time.*.gov'
+    - 'time.*.edu.cn'
+    - 'ntp.*.com'
+    - 'ntp.*.cn'
+    - 'ntp1.aliyun.com'
+    - 'ntp2.aliyun.com'
+    - 'ntp3.aliyun.com'
+    - 'ntp4.aliyun.com'
+    - 'ntp5.aliyun.com'
+    - 'ntp6.aliyun.com'
+    - 'ntp7.aliyun.com'
+    - 'time1.cloud.tencent.com'
+    - 'time2.cloud.tencent.com'
+    - 'time3.cloud.tencent.com'
+    - 'time4.cloud.tencent.com'
+    - 'time5.cloud.tencent.com'
+
+    # STUN / NAT traversal
+    - '+.stun.*.*'
+    - '+.stun.*.*.*'
+    - 'stun.*.*'
+    - 'stun.*.*.*'
+
+    # Tencent / QQ special case
+    - 'localhost.ptlogin2.qq.com'
+
+    # Network / captive portal detection
+    - '+.connectivitycheck.gstatic.com'
+    - '+.detectportal.firefox.com'
