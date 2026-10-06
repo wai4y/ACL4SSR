@@ -1,0 +1,5 @@
+# 内容：Apple Podcasts 网页与节目目录
+# 说明：podcasts.apple.com 后缀规则同时覆盖 amp-api.podcasts.apple.com
+# 目标：通过非中国大陆出口访问，避免地区过滤和强制跳转
+DOMAIN-SUFFIX,applepodcasts.com
+DOMAIN-SUFFIX,podcasts.apple.com
